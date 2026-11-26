@@ -1,0 +1,36 @@
+FEATURECOUNTS GENE-LEVEL QUANTIFICATION SUMMARY
+================================================
+
+Dataset: GSM461177
+Sample: S2_DRSC_Untreated-3
+Input BAM: alignment/GSM461177_script_sorted.bam
+Annotation: reference/Drosophila_melanogaster.BDGP6.32.109_UCSC.gtf
+Tool: featureCounts v2.1.1
+
+Parameters:
+- Paired-end mode (-p)
+- Minimum mapping quality: 10 (-Q 10)
+- Number of threads: 4 (-T 4)
+
+READ ASSIGNMENT SUMMARY
+----------------------
+Assigned:                       1,399,295
+Unassigned (unmapped):            149,004
+Unassigned (mapping quality):     999,010
+Unassigned (no features):           41,491
+Unassigned (ambiguity):             43,816
+
+Other unassigned categories:
+- Read type: 0
+- Singleton: 0
+- Chimera: 0
+- Fragment length: 0
+- Duplicate: 0
+- Multi-mapping: 0
+- Secondary: 0
+- Non-split: 0
+- Overlapping length: 0
+
+The Assigned category represents reads/fragments successfully assigned
+to annotated genomic features by featureCounts.
+
